@@ -4,4 +4,4 @@ project(Labo7_Matrices)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_FLAGS="-Wall -Wextra -Wconversion -Wsign-conversion -pedantic")
 
-add_executable(Labo7_Matrices main.cpp)
+add_executable(Labo7_Matrices main.cpp matrice.h matrice.cpp)
